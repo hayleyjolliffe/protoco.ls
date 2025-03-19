@@ -1,0 +1,13 @@
+---
+layout: post
+title: Voices of Reason
+published: true
+name: Voices of Reason
+note: Voices of Reason description will go here, a short snippet
+id: x01
+size: 0.0kb
+---
+
+# Voices of Reason
+
+This is a WIP of the first protocol, working title "Voices of Reason"
