@@ -1,6 +1,6 @@
 @font-face {
-    font-family:'CP437', monospace;
-    src: url('/assets/fonts/cp437.woff');
+    font-family:'CP437';
+    src: url('/assets/fonts/cp437.ttf');
 }
 
 :root, html, * {
@@ -15,11 +15,14 @@ p {
     font-family:'CP437';
 }
 
+#under {
+    border-bottom:2px solid #AAA;
+}
+
 th {
     text-align:left;
     vertical-align:top;
     font-family:'CP437';
-    border-bottom:1px solid #AAA;
 }
 
 td {
