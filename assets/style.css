@@ -11,21 +11,19 @@
     line-height:110%;
 }
 
-p {
-    font-family:'CP437';
+a {
+    text-decoration:none;
 }
 
-#under {
-    border-bottom:2px solid #AAA;
+a:hover {
+    opacity:25%;
 }
 
 th {
     text-align:left;
     vertical-align:top;
-    font-family:'CP437';
 }
 
 td {
     vertical-align:top;
-    font-family:'CP437';
 }
