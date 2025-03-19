@@ -8,4 +8,21 @@
     color:#AAA;
     font-family:'CP437', Monaco, monospace;
     font-size:16px;
+    line-height:110%;
+}
+
+p {
+    font-family:'CP437';
+}
+
+th {
+    text-align:left;
+    vertical-align:top;
+    font-family:'CP437';
+    border-bottom:1px solid #AAA;
+}
+
+td {
+    vertical-align:top;
+    font-family:'CP437';
 }
