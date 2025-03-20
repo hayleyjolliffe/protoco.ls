@@ -21,18 +21,9 @@ a:hover {
     opacity:25%;
 }
 
-#upper {
-    border-bottom:2px solid #AAA;
-}
-
 th, td {
     display:table-cell;
     text-align:left;
     vertical-align:top;
     padding:0.5%;
-}
-
-.protocols:hover {
-    background-color:#AAA;
-    color:#000;
 }

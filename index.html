@@ -5,18 +5,16 @@ title: PROTOCO.LS
 
 <table>
 
-    <tr id="upper">
-        <th>Protocol</th>
-        <th>Description</th>
-        <th>ID</th>
-        <th>Size</th>
+    <tr style="border-bottom:2px solid #AAA;">
+        <th width="30%">Protocol</th>
+        <th width="60%">Description</th>
+        <th width="10%">Size</th>
     </tr>
 
     {% for post in site.posts %}
     <tr>
         <td>{{ post.name }}</td>
         <td>{{ post.note }}</td>
-        <td>{{ post.prod }}</td>
         <td>{{ post.size }}</td>
     </tr>
     {% endfor %}
