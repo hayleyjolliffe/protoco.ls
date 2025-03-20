@@ -1,12 +1,12 @@
 @font-face {
-    font-family:'CP437';
-    src: url(/assets/fonts/cp437.ttf);
+    font-family:'Blue';
+    src: url(/assets/fonts/blue.woff);
 }
 
 :root, html, * {
     background-color:#000;
     color:#AAA;
-    font-family:'CP437', Monaco, monospace;
+    font-family:'Blue', Monaco, Menlo, monospace;
     font-size:16px;
     line-height:110%;
 }
