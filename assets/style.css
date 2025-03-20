@@ -22,7 +22,7 @@ a:hover {
 }
 
 table {
-    margin:2% 0;
+    width:100%;
 }
 
 th, td {
@@ -30,6 +30,18 @@ th, td {
     text-align:left;
     vertical-align:top;
     padding:0 4% 1% 0;
+}
+
+#left {
+    width:30%;
+}
+
+#mid {
+    width:60%;
+}
+
+#right {
+    width:10%;
 }
 
 @media only screen and (max-width:768px) {
