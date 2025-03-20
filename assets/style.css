@@ -9,6 +9,8 @@
     font-family:'Blue', Monaco, Menlo, monospace;
     font-size:12px;
     line-height:110%;
+    width:96vw;
+    padding:2vw;
 }
 
 a {
@@ -19,12 +21,18 @@ a:hover {
     opacity:25%;
 }
 
-th {
-    text-align:left;
-    vertical-align:top;
-    font-weight:normal;
+#upper {
+    border-bottom:2px solid #AAA;
 }
 
-td {
+th, td {
+    display:table-cell;
+    text-align:left;
     vertical-align:top;
+    padding:0.5%;
+}
+
+.protocols:hover {
+    background-color:#AAA;
+    color:#000;
 }
