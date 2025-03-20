@@ -10,7 +10,7 @@
     font-size:12px;
     line-height:110%;
     width:96%;
-    margin:2%;
+    margin:0 auto;
 }
 
 a {
@@ -19,10 +19,6 @@ a {
 
 a:hover {
     opacity:25%;
-}
-
-table {
-    width:96%;
 }
 
 th, td {
@@ -39,20 +35,9 @@ th, td {
     }
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (max-width:768px) {
     :root, html, * {
         font-size:10px;
-        width:90%;
-        margin:5%;
-        text-wrap:wrap;
-    }
-}
-
-@media only screen and (max-width:600px) {
-    :root, html, * {
-        font-size:10px;
-        width:90%;
-        margin:2.5% 5% 2.5% 5%;
         text-wrap:wrap;
     }
 }
