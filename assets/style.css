@@ -9,8 +9,8 @@
     font-family:'Blue', Monaco, Menlo, monospace;
     font-size:12px;
     line-height:110%;
-    width:96vw;
-    padding:2vw;
+    width:96%;
+    margin:2%;
 }
 
 a {
@@ -22,7 +22,7 @@ a:hover {
 }
 
 table {
-    width:96vw;
+    width:96%;
 }
 
 th, td {
@@ -42,8 +42,8 @@ th, td {
 @media only screen and (min-width:600px) {
     :root, html, * {
         font-size:10px;
-        width:90vw;
-        padding:5vw;
+        width:90%;
+        margin:5%;
         text-wrap:wrap;
     }
 }
@@ -51,8 +51,8 @@ th, td {
 @media only screen and (max-width:600px) {
     :root, html, * {
         font-size:10px;
-        width:90vw;
-        padding:2.5vw 5vw 2.5vw 5vw;
+        width:90%;
+        margin:2.5% 5% 2.5% 5%;
         text-wrap:wrap;
     }
 }
