@@ -28,13 +28,6 @@ th, td {
     padding:0 4% 1% 0;
 }
 
-@media only screen and (min-width:768px) {
-    :root, html, * {
-        font-size:10px;
-        text-wrap:wrap;
-    }
-}
-
 @media only screen and (max-width:768px) {
     :root, html, * {
         font-size:10px;
