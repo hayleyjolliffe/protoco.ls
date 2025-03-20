@@ -7,7 +7,7 @@
     background-color:#000;
     color:#AAA;
     font-family:'Blue', Monaco, Menlo, monospace;
-    font-size:16px;
+    font-size:12px;
     line-height:110%;
 }
 
@@ -22,6 +22,7 @@ a:hover {
 th {
     text-align:left;
     vertical-align:top;
+    font-weight:normal;
 }
 
 td {
