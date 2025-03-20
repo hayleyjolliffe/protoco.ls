@@ -21,9 +21,38 @@ a:hover {
     opacity:25%;
 }
 
+table {
+    width:96vw;
+}
+
 th, td {
     display:table-cell;
     text-align:left;
     vertical-align:top;
-    padding:0.5%;
+    padding:0 4% 1% 0;
+}
+
+@media only screen and (min-width:768px) {
+    :root, html, * {
+        font-size:10px;
+        text-wrap:wrap;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    :root, html, * {
+        font-size:10px;
+        width:90vw;
+        padding:5vw;
+        text-wrap:wrap;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    :root, html, * {
+        font-size:10px;
+        width:90vw;
+        padding:2.5vw 5vw 2.5vw 5vw;
+        text-wrap:wrap;
+    }
 }
