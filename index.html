@@ -6,16 +6,14 @@ title: PROTOCO.LS
 <table>
 
     <tr>
-        <th id="left">Protocol</th>
-        <th id="mid">Description</th>
-        <th id="right">Size</th>
+
+        <td>Protocol</td>
+
     </tr>
 
     {% for post in site.posts %}
     <tr>
-        <td>{{ post.name }}</td>
-        <td>{{ post.note }}</td>
-        <td>{{ post.size }}</td>
+        <td>&rarr; <a href="{{ post.permalink }}">{{ post.title }}</td>
     </tr>
     {% endfor %}
 
